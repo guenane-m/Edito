@@ -6,166 +6,229 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>599</width>
-    <height>374</height>
+    <width>644</width>
+    <height>403</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Edito</string>
   </property>
   <property name="windowIcon">
-   <iconset resource="Resources.qrc">
+   <iconset resource="../../build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/.qt/rcc/Resources.qrc">
     <normaloff>:/icons/editoIco.png</normaloff>:/icons/editoIco.png</iconset>
   </property>
+  <property name="toolButtonStyle">
+   <enum>Qt::ToolButtonStyle::ToolButtonIconOnly</enum>
+  </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QPushButton" name="createNew">
+   <widget class="QWidget" name="horizontalLayoutWidget">
     <property name="geometry">
      <rect>
-      <x>470</x>
-      <y>120</y>
-      <width>101</width>
-      <height>51</height>
+      <x>0</x>
+      <y>0</y>
+      <width>641</width>
+      <height>401</height>
      </rect>
     </property>
-    <property name="font">
-     <font>
-      <family>Segoe UI</family>
-      <pointsize>9</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>Create New</string>
-    </property>
-    <property name="icon">
-     <iconset resource="Resources.qrc">
-      <normaloff>:/icons/new.png</normaloff>:/icons/new.png</iconset>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="Open">
-    <property name="geometry">
-     <rect>
-      <x>470</x>
-      <y>180</y>
-      <width>101</width>
-      <height>51</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Open From</string>
-    </property>
-    <property name="icon">
-     <iconset resource="Resources.qrc">
-      <normaloff>:/icons/open.png</normaloff>:/icons/open.png</iconset>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="Options">
-    <property name="geometry">
-     <rect>
-      <x>469</x>
-      <y>240</y>
-      <width>101</width>
-      <height>24</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Options</string>
-    </property>
-    <property name="icon">
-     <iconset resource="Resources.qrc">
-      <normaloff>:/icons/settings.png</normaloff>:/icons/settings.png</iconset>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_4">
-    <property name="geometry">
-     <rect>
-      <x>469</x>
-      <y>270</y>
-      <width>101</width>
-      <height>24</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Help</string>
-    </property>
-   </widget>
-   <widget class="Line" name="line">
-    <property name="geometry">
-     <rect>
-      <x>450</x>
-      <y>50</y>
-      <width>20</width>
-      <height>261</height>
-     </rect>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Orientation::Vertical</enum>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label">
-    <property name="geometry">
-     <rect>
-      <x>40</x>
-      <y>50</y>
-      <width>391</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="sizePolicy">
-     <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-      <horstretch>0</horstretch>
-      <verstretch>0</verstretch>
-     </sizepolicy>
-    </property>
-    <property name="font">
-     <font>
-      <family>Reem Kufi</family>
-      <pointsize>25</pointsize>
-      <italic>false</italic>
-      <bold>true</bold>
-      <underline>false</underline>
-      <strikeout>false</strikeout>
-     </font>
-    </property>
-    <property name="text">
-     <string>Welcome to Edito</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_2">
-    <property name="geometry">
-     <rect>
-      <x>30</x>
-      <y>110</y>
-      <width>71</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Recent files:</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="EmptyFile">
-    <property name="geometry">
-     <rect>
-      <x>470</x>
-      <y>60</y>
-      <width>101</width>
-      <height>51</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Open Without
- A File</string>
-    </property>
-    <property name="icon">
-     <iconset resource="Resources.qrc">
-      <normaloff>:/icons/noFile.png</normaloff>:/icons/noFile.png</iconset>
-    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <property name="spacing">
+      <number>0</number>
+     </property>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_4">
+       <property name="leftMargin">
+        <number>50</number>
+       </property>
+       <property name="topMargin">
+        <number>50</number>
+       </property>
+       <property name="rightMargin">
+        <number>20</number>
+       </property>
+       <property name="bottomMargin">
+        <number>20</number>
+       </property>
+       <item>
+        <widget class="QLabel" name="label">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="font">
+          <font>
+           <family>Reem Kufi</family>
+           <pointsize>25</pointsize>
+           <italic>false</italic>
+           <bold>true</bold>
+           <underline>false</underline>
+           <strikeout>false</strikeout>
+          </font>
+         </property>
+         <property name="text">
+          <string>Welcome to Edito</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_2">
+         <property name="text">
+          <string>Recent files:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer">
+         <property name="orientation">
+          <enum>Qt::Orientation::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <spacer name="verticalSpacer">
+         <property name="orientation">
+          <enum>Qt::Orientation::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_3" stretch="0">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="sizeConstraint">
+        <enum>QLayout::SizeConstraint::SetFixedSize</enum>
+       </property>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_3">
+         <item>
+          <widget class="Line" name="line">
+           <property name="orientation">
+            <enum>Qt::Orientation::Vertical</enum>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout_5">
+           <property name="leftMargin">
+            <number>20</number>
+           </property>
+           <property name="topMargin">
+            <number>20</number>
+           </property>
+           <property name="rightMargin">
+            <number>20</number>
+           </property>
+           <item>
+            <spacer name="verticalSpacer_3">
+             <property name="orientation">
+              <enum>Qt::Orientation::Vertical</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>20</width>
+               <height>40</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item>
+            <widget class="QPushButton" name="EmptyFile">
+             <property name="text">
+              <string>Open Without A File</string>
+             </property>
+             <property name="icon">
+              <iconset resource="../../build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/.qt/rcc/Resources.qrc">
+               <normaloff>:/icons/noFile.png</normaloff>:/icons/noFile.png</iconset>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="createNew">
+             <property name="font">
+              <font>
+               <family>Segoe UI</family>
+               <pointsize>9</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>Create New</string>
+             </property>
+             <property name="icon">
+              <iconset resource="../../build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/.qt/rcc/Resources.qrc">
+               <normaloff>:/icons/new.png</normaloff>:/icons/new.png</iconset>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="Open">
+             <property name="text">
+              <string>Open From</string>
+             </property>
+             <property name="icon">
+              <iconset resource="../../build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/.qt/rcc/Resources.qrc">
+               <normaloff>:/icons/open.png</normaloff>:/icons/open.png</iconset>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="Options">
+             <property name="text">
+              <string>Options</string>
+             </property>
+             <property name="icon">
+              <iconset resource="../../build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/.qt/rcc/Resources.qrc">
+               <normaloff>:/icons/settings.png</normaloff>:/icons/settings.png</iconset>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_4">
+             <property name="text">
+              <string>Help</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <spacer name="verticalSpacer_2">
+             <property name="orientation">
+              <enum>Qt::Orientation::Vertical</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>20</width>
+               <height>40</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+    </layout>
    </widget>
   </widget>
-  <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources>
-  <include location="Resources.qrc"/>
+  <include location="../../build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/.qt/rcc/Resources.qrc"/>
  </resources>
  <connections/>
 </ui>

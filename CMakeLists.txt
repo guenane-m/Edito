@@ -36,6 +36,7 @@ qt_add_executable(Edito WIN32 MACOSX_BUNDLE
     third-party/hunspell/suggestmgr.cxx third-party/hunspell/suggestmgr.hxx
     third-party/hunspell/utf_info.hxx
     third-party/hunspell/w_char.hxx
+    Resources.qrc
 )
 target_include_directories(Edito PRIVATE
     src/core
