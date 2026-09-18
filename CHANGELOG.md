@@ -13,6 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 - Disabled maximizing and resizing for main window.
+- Fixed suggestions from earlier misspellings listing for correct words.
 
 ## [v1.0.0]
 
