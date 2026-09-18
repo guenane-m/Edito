@@ -34,6 +34,11 @@ Edito::Edito(QWidget *parent)
     , checker(new SpellChecker)
 {
     ui->setupUi(this);
+
+    setWindowFlags((windowFlags()               // Disable maximize button.
+                        | Qt::CustomizeWindowHint)
+                   & ~Qt::WindowMaximizeButtonHint);
+    this->setFixedSize(this->size());           // Fix the window size (disable resizing).
 }
 
 Edito::~Edito()
