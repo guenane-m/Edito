@@ -35,5 +35,5 @@ This project is licensed under the GPLv3 License - see the [LICENSE](LICENSE) fi
 
 ## Support
 If you have any questions or issues:
-- Create an [issue](https://github.com/Yovsky/Edito/issues)
-- Email: Yovsky@proton.me
+- Create an [issue](https://github.com/guenane-m/Edito/issues)
+- Email: mouloudguenane@proton.me
